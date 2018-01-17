@@ -1,0 +1,20 @@
+---
+inputs:
+  default:
+    spider_path: /data/mcr/masimatlab/trunk/xnatspiders/singularity/wholebody_v1_0_0/Spider_wholebody_singularity_v1_0_0.py
+  xnat:
+    scans:
+      - scan1:
+        types: CT
+        resources:
+          - resource: NIFTI
+            varname: ct_file
+command: python -u {spider_path} --ct_file {ct_file}
+attrs:
+  suffix:
+  xsitype: proc:genProcData
+  walltime: "1:00:00"
+  memory: "50000"
+  ppn: "1"
+  type: scan
+  scan_nb: scan1
