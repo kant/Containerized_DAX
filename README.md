@@ -12,7 +12,7 @@ spider/Spider_wholebody_singularity_v1_0_0.py
 processor/processor.yaml
 
 ### 3. docker image
-The instruction is docker/readme.txt
+The instruction is docker/readme.md
 
 ### 4. singularity image
-The instruction is singularity/readme.txt
+The instruction is singularity/readme.md
