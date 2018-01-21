@@ -16,3 +16,6 @@ The instruction is docker/readme.md
 
 ### 4. singularity image
 The instruction is singularity/readme.md
+
+### 5. example input scan
+The nifty image is INPUTS/test_input.nii.gz
